@@ -9,21 +9,24 @@
 
 .header {
   background: chartreuse;
-  color: #4a4a4a;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
 }
+/* logo */
 
-.img {
-  background: cadetblue;
+.logo {
   width: 9.688rem; /*155px*/
   margin-top: 10px;
 }
 
+/* links */
+
 .nav-menu {
-  background: lightcoral;
   margin-top: 10px;
   margin-bottom: 13px;
 }
@@ -37,4 +40,23 @@
 .each-link {
   text-decoration: none;
   list-style: none;
+  color: #4a4a4a;
+}
+
+/* main */
+
+.main {
+  background: #3cdbc0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.text {
+  color: #ffffff;
+  font-size: 1.875rem; /*30px*/
+  margin-right: 50px;
+  margin-left: 50px;
 }
