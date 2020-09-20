@@ -50,16 +50,18 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
-  text-align: center;
+  align-items: center;
   justify-content: center;
 }
 
 .text {
   color: #ffffff;
-  font-size: 1.875rem; /*30px*/
-  margin-right: 50px; /* habría que hacerlo con margen del elemento, no del txt, o darle width a <h1>*/
-  margin-left: 50px; /* " */
   text-transform: capitalize;
+  font-size: 1.875rem; /*30px*/
+  /* margin-right: 50px; /* habría que hacerlo con margen del elemento, no del txt, o darle width a <h1>*/
+  /* margin-left: 50px; " */
+  width: 148px;
+  text-align: center;
 }
 
 /* media query */
