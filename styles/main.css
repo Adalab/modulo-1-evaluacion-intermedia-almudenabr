@@ -29,12 +29,18 @@
 .nav-menu {
   margin-top: 10px;
   margin-bottom: 13px;
+  width: 167px;
 }
 
 .links {
   font-size: 1rem;
   display: inline;
   text-transform: uppercase;
+  padding: 10px;
+}
+
+.each-link:hover {
+  color: #3cdbc0;
 }
 
 .each-link {
@@ -49,7 +55,7 @@
   background: #3cdbc0;
   height: 100vh;
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   align-items: center;
   justify-content: center;
 }
@@ -60,7 +66,7 @@
   font-size: 1.875rem; /*30px*/
   /* margin-right: 50px; /* habría que hacerlo con margen del elemento, no del txt, o darle width a <h1>*/
   /* margin-left: 50px; " */
-  width: 148px;
+  width: 147px;
   text-align: center;
 }
 
