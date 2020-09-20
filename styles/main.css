@@ -34,6 +34,7 @@
 .links {
   font-size: 1rem;
   display: inline;
+  text-transform: uppercase;
 }
 
 .each-link {
@@ -58,6 +59,7 @@
   font-size: 1.875rem; /*30px*/
   margin-right: 50px; /* habría que hacerlo con margen del elemento, no del txt, o darle width a <h1>*/
   margin-left: 50px; /* " */
+  text-transform: capitalize;
 }
 
 /* media query */
